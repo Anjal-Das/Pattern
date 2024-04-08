@@ -5,7 +5,7 @@ public class first {
 		
 		 for(int i =0; i<10;i++)
 	        {
-	            if(i==2 || i==5)
+	            if(i==2 )
 	            {
 	                for(int j=0;j<=i;j++)
 	                {
@@ -13,9 +13,18 @@ public class first {
 	                }
 	                System.out.println();
 	            }
+		        
+	            else if(i==5)
+		            {
+		                for(int k=0;k<=i;k++)
+		                {
+		                    System.out.print("*");
+		                }
+		                System.out.println();
+		            }
 	            else if( i==9)
 	            {
-	                for(int j=0;j<i+1;j++)
+	                for(int k=0;k<i+1;k++)
 	                {
 	                    System.out.print("*");
 	                }
@@ -38,3 +47,4 @@ public class first {
 	
 
 	}
+
